@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Your Name</h1>
+    <p class="subtitle">Frontend engineer • Designer • Problem solver</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="projects">
+      <h2>Selected Projects</h2>
+      <div class="projects-grid">
+        <!-- repeat project cards -->
+        <article class="card">
+          <h3>Project Title</h3>
+          <p>Short description. Tech: React, Node.</p>
+          <a href="https://github.com/yourusername/project-repo" target="_blank">View repo</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>Short professional bio — 2–3 sentences highlighting experience & skills.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>LinkedIn • GitHub • Twitter</p>
+    </section>
+  </main>
+
+  <footer>
+    <small>© <span id="year"></span> Your Name</small>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
