@@ -1,0 +1,10 @@
+:root{--bg:#f7f7f9;--text:#111;--accent:#0b74de}
+*{box-sizing:border-box}
+body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;background:var(--bg);color:var(--text);line-height:1.5}
+.site-header{padding:2rem;text-align:center;background:white;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+.subtitle{color:#555;margin-top:.25rem}
+nav a{margin:0 .5rem;color:var(--accent);text-decoration:none}
+main{max-width:980px;margin:2rem auto;padding:0 1rem}
+.projects-grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card{background:white;padding:1rem;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+footer{padding:1rem;text-align:center;color:#666}
